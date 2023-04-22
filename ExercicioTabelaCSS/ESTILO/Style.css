@@ -1,0 +1,41 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.tabela{
+    width: 600px;
+    padding: 2px;
+    margin: 2px;
+    background-color:#C7E7F3 ;
+}
+
+
+.tabela .pop{
+    text-align: center;
+    font-weight: bold;
+    background-color: #C7E7F3;
+    width: 15%;
+
+}
+.tabela .cidades{
+    color: #0d5188;
+    background-color: #C7E7F3;
+    font-weight: bold;
+}
+.tabela .posiçao { 
+    background-color: silver ;
+    text-align: center;
+    width: 10%;
+}
+
+.tabela .linha2 {
+    text-align: center;
+    font-weight: bold;
+    background-color: #66c5e3;
+}
+.tabela .titulo{
+    background-color: #0d5188;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
