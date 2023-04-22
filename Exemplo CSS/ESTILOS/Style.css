@@ -1,0 +1,39 @@
+/* utilizando a tag */
+body{
+    background-color: aquamarine;/* cor de fundo*/
+}
+h1 {
+
+    font-size: 80px;/* Definir tamanho da fonte. */
+    color: blueviolet;/* definir cor da fonte. */
+    text-align: center;/* alinhando texto... */
+    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;/* Tipo de fonte */
+    
+}
+pre{
+    font-size: 25px;
+    font-style: oblique;
+    color: rgb(180, 91, 197);
+}
+/* classe */
+.titulo {
+
+    font-family: 'Courier New', Courier, monospace;
+}
+/* ID */
+#texto1{
+    font-size:65px;
+    color: aliceblue;
+}
+
+table{
+    border-collapse: collapse;/* pra juntar as bordas*/
+
+    
+    
+}
+td{
+    border: 1px solid black;/* tamanho de borda, solid tipo de borda, black cor da borda */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
