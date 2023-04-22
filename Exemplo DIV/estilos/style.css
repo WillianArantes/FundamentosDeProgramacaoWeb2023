@@ -1,0 +1,72 @@
+div{
+    width: 200px;
+    height: 300px;
+}/* todas as div vao ter este tamanho */
+
+.divSticky{
+    background-color: rgb(190, 183, 183);
+    position: sticky;/* sticky, com ele o elemento fixo, se move um pouco só */
+    top: 0px;/* indicam a distancia com relção ao topo. */
+    left: 250px;
+
+}
+.divRelative{
+    background-color: rgb(190, 139, 139);
+    position: relative;/* anda conforme a barra de rolagem,é posicionado em relação à sua posição normal. */
+    top: 10px;
+    left: 450px;
+}
+.divFixed{
+    background-color:aqua;
+    position: fixed;/* nao se move, se mantem fixo */
+    top: 80px;
+    left: 40px;
+
+}
+.divStatic{
+    background-color:rgb(226, 119, 76);
+    position: static;/* fica por baixo de outros container, como se fosse um background */ 
+    top: 300px;
+    left: 300px;
+
+}
+.divAbsolute{
+    background-color: aquamarine;
+    position: absolute;
+    top: 80px;
+    left: 600px;
+}
+.divAlignCenter{
+    background-color: rgb(228, 86, 86);
+    margin: 0px auto;/* auto, é usado para forçar o elemento a ficar no meio */
+
+}
+.divAlignLeft{
+    background-color: rgb(18, 187, 131);
+    float: left;
+}
+.divAlignRight{
+    background-color: blueviolet;
+    float: right;
+}
+.divMenu{
+
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 5%;
+}
+.logoUnipar{
+    width: 40px;
+    height: ;
+    margin: 5px 5px 5px 5px;
+}
+.tituloMenu {
+    position: fixed;
+    top: 5px;
+    left: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: auto;
+}
+
