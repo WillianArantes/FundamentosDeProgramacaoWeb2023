@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header_container{
+    width: 100%;
+    height: 100px;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.header_container :nth-child(1){
+    width: 250px;
+    border-radius: 10px;
+   
+}
+.header_container :nth-child(2){
+    font-size: 70px;
+    display: flex;
+    position: relative;
+    right: 300px;
+    font-weight: bold;
+    color: rgb(219, 2, 2);
+   
+}
+body{
+    background-color: rgb(207, 207, 206);
+}
+.tituloContainer{
+    font-size: 130px;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    color:  rgb(110, 86, 86);
+    font-weight: bold;
+    
+}
+.SubTitulo{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    color: rgb(219, 2, 2);
+}
+.main_container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container_exercicios{
+    margin: 5px;
+    width: 250px;
+    height: 55vh;
+    border-radius: 5px;
+    background-color: rgb(110, 86, 86);
+    display: flex;
+    flex-direction: column;   
+    align-items: center;  
+
+}
+.container_exercicios1{
+    margin: 5px;
+    width: 250px;
+    height: 55vh;
+    border-radius: 5px;
+    background-color: rgb(110, 86, 86);
+    display: flex;
+    flex-direction: column; 
+    align-items: center;  
+}
+.container_exercicios :nth-child(1){
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(167, 48, 48);
+    width: 180px;
+    height: 45px;
+    margin: 30px;
+    color: aliceblue;
+    font-size: 20px;
+    
+}
+.container_exercicios :nth-child(2){
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(167, 48, 48);
+    width: 180px;
+    height: 45px;
+    margin: 30px;
+    color: aliceblue;
+    font-size: 20px;
+}
+.container_exercicios :nth-child(3){
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(167, 48, 48);
+    width: 180px;
+    height: 45px;
+    margin: 30px;
+    color: aliceblue;
+    font-size: 20px;
+}
+.container_exercicios :nth-child(4){
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(167, 48, 48);
+    width: 180px;
+    height: 45px;
+    margin: 30px;
+    color: aliceblue;
+    font-size: 20px;
+}
+.container_exercicios :nth-child(5){
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(167, 48, 48);
+    width: 180px;
+    height: 45px;
+    margin: 30px;
+    color: aliceblue;
+    font-size: 20px;
+}
+.container_exercicios :nth-child(6){
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(167, 48, 48);
+    width: 180px;
+    height: 45px;
+    margin: 30px;
+    color: aliceblue;
+    font-size: 20px;
+}
+.container_exercicios :nth-child(7){
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(167, 48, 48);
+    width: 180px;
+    height: 45px;
+    margin: 30px;
+    color: aliceblue;
+    font-size: 20px;
+    
+}
+.container_exercicios a{
+    text-decoration: none;
+}
+.container_exercicios1 :nth-child(1){
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(167, 48, 48);
+    width: 180px;
+    height: 45px;
+    margin: 30px;
+    color: aliceblue;
+    font-size: 20px;
+}
+.container_exercicios1 :nth-child(2){
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(167, 48, 48);
+    width: 180px;
+    height: 45px;
+    margin: 30px;
+    color: aliceblue;
+    font-size: 20px;
+}
+.container_exercicios1 :nth-child(3){
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(167, 48, 48);
+    width: 180px;
+    height: 45px;
+    margin: 30px;
+    color: aliceblue;
+    font-size: 20px;
+}
+.container_exercicios1 :nth-child(4){
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(167, 48, 48);
+    width: 180px;
+    height: 45px;
+    margin: 30px;
+    color: aliceblue;
+    font-size: 20px;
+}
+.container_exercicios1 :nth-child(5){
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(167, 48, 48);
+    width: 180px;
+    height: 45px;
+    margin: 30px;
+    color: aliceblue;
+    font-size: 20px;
+}
+.container_exercicios1 :nth-child(6){
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(167, 48, 48);
+    width: 180px;
+    height: 45px;
+    margin: 30px;
+    color: aliceblue;
+    font-size: 20px;
+}
+.container_exercicios1 :nth-child(7){
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(167, 48, 48);
+    width: 180px;
+    height: 45px;
+    margin: 30px;
+    color: aliceblue;
+    font-size: 20px;
+}
+.container_exercicios1 a{
+    text-decoration: none;
+}
+.footer_container{
+   justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: white;
+}
+.Container_rodape{
+   
+    margin: 50px;
+    display: flex;
+    align-items: center;
+}
+li{
+    font-weight: bold;
+    color: rgb(146, 0, 0);
+    font-size: 25px;
+    list-style-type: none;
+}
